@@ -9,5 +9,6 @@ Relógio de ponteiro desenvolvido com Python + Tkinter com base na Matriz de Rot
 
 <div align="center"><img src="funcao.jpg"></div>
 
+<br>
 
 <div align="center"><img src="relogio.png"></div>
