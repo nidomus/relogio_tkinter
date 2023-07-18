@@ -16,9 +16,13 @@ root.configure(bg='white')
 
 def rotacao(x,y):
     coord_n = []
-    rad = m.radians(6)
+    rad = m.radians(6)#Pega a rotação equivalente a um segundo e converte em radiano
+
+    #Multiplicação da Matriz de Rotação pela Matriz das coordenadas do Ponteiro
     x_novo = m.cos(rad)*x + m.sin(rad)*y
     y_novo = -1*m.sin(rad)*x + m.cos(rad)*y
+
+    
     coord_n.append(x_novo)
     coord_n.append(y_novo)
     return coord_n
